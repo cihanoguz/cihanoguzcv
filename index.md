@@ -31,8 +31,8 @@ __MSU Software § Consultancy__, İstanbul
 MSU Software & Consultancy · Full-timeMSU Software & Consultancy · Full-time
 May 2021 - Jan 2022 · 9 mos
 
-• Developed and bug-fixed existing Asp.Net Web Forms projects for insurance companies.
-• Optimizing SQL codes and developing stored-procedures.• Developed and bug-fixed existing Asp.Net Web Forms projects for insurance companies. • Optimizing SQL codes and developing stored-procedures.
+• Developed and bug-fixed existing Asp.Net Web Forms projects for insurance companies. \n
+• Optimizing SQL codes and developing stored-procedures.• Developed and bug-fixed existing Asp.Net Web Forms projects for insurance companies. • Optimizing SQL codes and developing stored-procedures. 
 Skills: ASP.NET Web API · ASP.NET Web Forms · AngularJS · Jenkins · Oracle Database
 
 Jun 2020 - May 2021 
