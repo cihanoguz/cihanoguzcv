@@ -25,13 +25,13 @@ __Istanbul University, Mathematics.__
 
 ## Experience
 
-`May 2021 - Jan 2022 `
+`May 2021 - Jan 2022 `<br/>
 __MSU Software § Consultancy__, İstanbul <br/>
 • Developed and bug-fixed existing Asp.Net Web Forms projects for insurance companies.<br/>
 • Optimizing SQL codes and developing stored-procedures.• Developed and bug-fixed existing Asp.Net Web Forms projects for insurance companies. <br/>• Optimizing SQL codes and developing stored-procedures. 
 Skills: ASP.NET Web API · ASP.NET Web Forms · AngularJS · Jenkins · Oracle Database
 
-Jun 2020 - May 2021 
+Jun 2020 - May 2021 <br/>
 __NetBT Danışmanlık Hizmetleri__, İstanbul <br/>
 • Developed and bug-fixed existing Asp.NET MVC and Asp.Net Web Forms projects.<br/>
 • Developed .Net Core API projects(internal), integrated web services and API's.<br/>
