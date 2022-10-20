@@ -1,13 +1,13 @@
-[incendies.github.io/emreozdiyarcv]: https://incendies.github.io/emreozdiyarcv/
-[latest release]: https://github.com/incendies/emreozdiyarcv/releases/latest
+[cihanoguz.github.io/cihanoguzcv]: https://cihanoguz.github.io/cihanoguzcv/
+[latest release]: https://github.com/cihanoguz/cihanoguzcv/releases/latest
 
-# Source of Yunus Emre Özdiyar's CV
+# Source of Cihan Oguz's CV
 
 | Website                       | PDF Version      |
 |----------------------------   |------------------|
-| [incendies.github.io/emreozdiyarcv] | [latest release] |
+| [cihanoguz.github.io/cihanoguzcv] | [latest release] |
 
-[![Build Status](https://app.travis-ci.com/incendies/emreozdiyarcv.svg?branch=gh-pages)](https://app.travis-ci.com/github/incendies/emreozdiyarcv)
+[![Build Status](https://app.travis-ci.com/cihanoguz/cihanoguzcv.svg?branch=gh-pages)](https://app.travis-ci.com/github/cihanoguz/cihanoguzcv)
 
 **If you want to have your own, just fork this repo and modify the `index.md`.**
 
