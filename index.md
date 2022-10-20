@@ -1,61 +1,53 @@
 ---
 layout: cv
-title: Yunus Emre Özdiyar's CV
+title: Cihan Oguz's CV
 ---
 
-# Yunus Emre Özdiyar
-Full-Stack Developer and SEO specialist
+# Cihan Oguz
+Software Developer
 
-| __E-Mail__   | [yunusemreozdiyar@gmail.com](mailto:yunusemreozdiyar@gmail.com)      | 
-| __Website__  | [metalshout.com](https://metalshout.com)                        |
-| __LinkedIn__ | [linkedin.com/in/yunusemreozdiyar](https://linkedin.com/in/yunusemreozdiyar) |
-| __Twitter__  | [twitter.com/emreozdiyar](https://twitter.com/emreozdiyar)       |
-| __GitHub__  | [github.com/incendies](https://github.com/incendies)         |
+| __E-Mail__   | [cihanoguz92@gmail.com](mailto:cihanoguz92@gmail.com)                              |                      
+| __LinkedIn__ | [linkedin.com/in/cihan-oguz-9a3847a1](https://linkedin.com/in/cihan-oguz-9a3847a1) |
+| __GitHub__  | [github.com/cihanoguz](https://github.com/cihanoguz)         |
 
 ## Summary
 * Freelance Software Developer & Work on my own small projects 
 
-- I'm a full-stack developer and SEO specialist 
-- I use Python, JavaScript, GoLang, C#
-- I sold 4 websites [netflixjunkie.com](https://netflixjunkie.com) and [chaospin.com](https://chaospin.com) in 2021 and [thegamescabin.com](https://thegamescabin.com) and [corexbox.com](https://corexbox.com) in 2022. 
-- I've been writing JavaScript, Python, GoLang, and C# 
+- I'm a full-stack developer
+- I've been writing JavaScript,C# 
 - You can see below for code examples, open source personal projects.
 
 ## Education
 
-`2011-2017`
-__Istanbul University, Physics.__
+`2017`
+__Istanbul University, Mathematics.__
 
-
-`2022-`
-__Freie Berlin University, Masters of Physics.__
 
 ## Experience
 
-`Jun 2018 - July 2022`
-__Freelance Software Developer__, Global  
-_mostly back-end and javascript projects_
+`May 2021 - Jan 2022 `
+__MSU Software § Consultancy__, İstanbul
 
-- I have been working freelance on my life and trying to write my thesis. My skills: Python, GoLang, JavaScript, Django, VueJS, React and etc...
+MSU Software & Consultancy · Full-timeMSU Software & Consultancy · Full-time
+May 2021 - Jan 2022 · 9 mos
 
-`April 2020 - now`
-__netflixjunkie.com__, Global, 
-_Founder & Editor-in-Chief_
+• Developed and bug-fixed existing Asp.Net Web Forms projects for insurance companies.
+• Optimizing SQL codes and developing stored-procedures.• Developed and bug-fixed existing Asp.Net Web Forms projects for insurance companies. • Optimizing SQL codes and developing stored-procedures.
+Skills: ASP.NET Web API · ASP.NET Web Forms · AngularJS · Jenkins · Oracle Database
+
+Jun 2020 - May 2021 
+__NetBT Danışmanlık Hizmetleri__, İstanbul, 
+• Developed and bug-fixed existing Asp.NET MVC and Asp.Net Web Forms projects.
+• Developed .Net Core API projects(internal), integrated web services and API's.
+• Participated in the team that was developing an e-Account Statement project, developed report pages, optimized back-end and SQL codes. 
+• Technologies used: .Net Core API, Ext.NET, Javascript, MSSQL, Elasticsearch.• Developed and bug-fixed existing Asp.NET MVC and Asp.Net Web Forms projects. • Developed .Net Core API projects(internal), integrated web services and API's. • Participated in the team that was developing an e-Account Statement project, developed report pages, optimized back-end and SQL codes. 
+Skills: .Net Core API, Ext.NET, Javascript, MSSQL, Elasticsearch.
 
 
-`September 2018 - November 2018`
-__End-Point Labs__, Istanbul,
-_Back-End Developer_
-
-- I worked in Istanbul office for a short time and working under the Kondukto.io which also in this project I use GoLang and MongoDB.
+`Oct 2019 - Jun 2020 `
+__Vizyoneks Bilgi Teknolojileri A.Ş__, İstanbul,
+• We're building a management system for insurance companies on .Net Framework with Asp.Net Boilerplate. This system running on Oracle database.
+• Technologies used: Oracle, ASP.NET, MVC 5, ABP Boilerplate, JQuery, JavaScript (ES6), Metronic, TFS, Jenkins
 
 
 ## Projects & Code Examples
-
-- `Python, ReactJS` : 
-   Source: [github.com/incendies/movies](https://github.com/incendies/movies)
-
-- `Django, Rest API` : [github.com/incendies/djangorestapitodo](https://github.com/incendies/djangorestapitodo)
-
-- `VueJS` :
-  Source: [github.com/incendies/loginpage-withvuejs](https://github.com/incendies/loginpage-withvuejs)
