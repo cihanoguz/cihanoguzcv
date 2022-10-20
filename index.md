@@ -31,22 +31,21 @@ __MSU Software § Consultancy__, İstanbul
 MSU Software & Consultancy · Full-timeMSU Software & Consultancy · Full-time
 May 2021 - Jan 2022 · 9 mos
 
-• Developed and bug-fixed existing Asp.Net Web Forms projects for insurance companies. \n
-• Optimizing SQL codes and developing stored-procedures.• Developed and bug-fixed existing Asp.Net Web Forms projects for insurance companies. • Optimizing SQL codes and developing stored-procedures. 
+• Developed and bug-fixed existing Asp.Net Web Forms projects for insurance companies.<br/>
+• Optimizing SQL codes and developing stored-procedures.• Developed and bug-fixed existing Asp.Net Web Forms projects for insurance companies. <br/>• Optimizing SQL codes and developing stored-procedures. 
 Skills: ASP.NET Web API · ASP.NET Web Forms · AngularJS · Jenkins · Oracle Database
 
 Jun 2020 - May 2021 
 __NetBT Danışmanlık Hizmetleri__, İstanbul, 
-• Developed and bug-fixed existing Asp.NET MVC and Asp.Net Web Forms projects.
-• Developed .Net Core API projects(internal), integrated web services and API's.
-• Participated in the team that was developing an e-Account Statement project, developed report pages, optimized back-end and SQL codes. 
-• Technologies used: .Net Core API, Ext.NET, Javascript, MSSQL, Elasticsearch.• Developed and bug-fixed existing Asp.NET MVC and Asp.Net Web Forms projects. • Developed .Net Core API projects(internal), integrated web services and API's. • Participated in the team that was developing an e-Account Statement project, developed report pages, optimized back-end and SQL codes. 
-Skills: .Net Core API, Ext.NET, Javascript, MSSQL, Elasticsearch.
+• Developed and bug-fixed existing Asp.NET MVC and Asp.Net Web Forms projects.<br/>
+• Developed .Net Core API projects(internal), integrated web services and API's.<br/>
+• Participated in the team that was developing an e-Account Statement project, developed report pages, optimized back-end and SQL codes. <br/>
+• Skills:Asp.Net Web-Form, .Net Core API, Ext.NET, Javascript, MSSQL, Elasticsearch.
 
 
 `Oct 2019 - Jun 2020 `
 __Vizyoneks Bilgi Teknolojileri A.Ş__, İstanbul,
-• We're building a management system for insurance companies on .Net Framework with Asp.Net Boilerplate. This system running on Oracle database.
+• We're building a management system for insurance companies on .Net Framework with Asp.Net Boilerplate. This system running on Oracle database.<br/>
 • Technologies used: Oracle, ASP.NET, MVC 5, ABP Boilerplate, JQuery, JavaScript (ES6), Metronic, TFS, Jenkins
 
 
