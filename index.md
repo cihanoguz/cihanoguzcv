@@ -11,7 +11,7 @@ Software Developer
 | __GitHub__  | [github.com/cihanoguz](https://github.com/cihanoguz)         |
 
 ## Summary
-* Freelance Software Developer & Work on my own small projects 
+* Software Developer & Work on my own small projects 
 
 - I'm a full-stack developer
 - I've been writing JavaScript,C# 
