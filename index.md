@@ -20,6 +20,7 @@ Software Developer
 
 `2017`
 __Istanbul University, Mathematics.__
+
 `2022-2025`
 __Justus-Liebig-Universität Gießen, Mathematics.__
 
