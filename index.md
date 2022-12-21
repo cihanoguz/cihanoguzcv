@@ -9,7 +9,6 @@ Software Developer
 | __E-Mail__   | [cihanoguz92@gmail.com](mailto:cihanoguz92@gmail.com)                              |                      
 | __LinkedIn__ | [linkedin.com/in/cihan-oguz-9a3847a1](https://linkedin.com/in/cihan-oguz-9a3847a1)                  |  
 | __GitHub__  | [github.com/cihanoguz](https://github.com/cihanoguz)                                                        |
-
 | __Mobile Number__  | +491631841811                                              |
 
 
