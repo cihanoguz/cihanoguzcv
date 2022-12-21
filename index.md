@@ -37,7 +37,8 @@ __Justus-Liebig-Universität Gießen, Mathematics.__
 `May 2021 - Jan 2022 `<br/>
 __MSU Software & Consultancy__, İstanbul <br/>
 • Developed and bug-fixed existing Asp.Net Web Forms projects for insurance companies.<br/>
-• Optimizing SQL codes and developing stored-procedures.• Developed and bug-fixed existing Asp.Net Web Forms projects for insurance companies. <br/>• Optimizing SQL codes and developing stored-procedures. 
+• Optimizing SQL codes and developing stored-procedures.<br/>
+• Developed and bug-fixed existing Asp.Net Web Forms projects for insurance companies. <br/>• Optimizing SQL codes and developing stored-procedures. 
 Skills: ASP.NET Web API · ASP.NET Web Forms · AngularJS · Jenkins · Oracle Database
 
 `Jun 2020 - May 2021` <br/>
