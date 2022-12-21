@@ -29,7 +29,7 @@ __Justus-Liebig-Universität Gießen, Mathematics.__
 ## Language
 - Turkish (Native)
 - English(C1)
-- German(A2)
+- German(B1)
 
 
 ## Experience
