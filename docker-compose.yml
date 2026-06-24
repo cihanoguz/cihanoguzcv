@@ -1,0 +1,21 @@
+services:
+  cv:
+    build:
+      context: .
+      target: production
+    container_name: cihanoguzcv
+    ports:
+      - "127.0.0.1:8081:80"
+    restart: unless-stopped
+
+  cv-dev:
+    build:
+      context: .
+      target: dev
+    container_name: cihanoguzcv-dev
+    ports:
+      - "4000:4000"
+    volumes:
+      - .:/site
+    profiles:
+      - dev

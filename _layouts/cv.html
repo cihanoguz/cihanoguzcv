@@ -5,48 +5,100 @@
   <title>{{ page.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="media/style.css" type="text/css" rel="stylesheet">
-  {% if site.shouldInjectCvDownloadLink != "NO" %}
-  <script>
-	// Attempts to fetch the latest pdf url, then injects the download link to bottom of the page.
-	var req = new XMLHttpRequest();
-	req.onreadystatechange = function() {
-		if (req.readyState == XMLHttpRequest.DONE) {
-			if (req.status == 200) {
-				try {
-					var responseJSON = JSON.parse(req.responseText);
-					if (responseJSON.assets && responseJSON.assets.length > 0) {
-						var latestReleaseUrl = responseJSON.assets[0].browser_download_url;
-					
-					 	var directLinkTextNode = document.createTextNode("Latest PDF Version: ");
-						var directLinkElement = document.createElement("a");
-						directLinkElement.text = "Click here to download"
-						directLinkElement.href = latestReleaseUrl;
-						var directLinkContainerElement = document.createElement("div");
-						directLinkContainerElement.appendChild(directLinkTextNode);
-						directLinkContainerElement.appendChild(directLinkElement);
-					
-						var elementToReplace = document.getElementById("footer");
-						elementToReplace.appendChild(directLinkContainerElement);
-					}
-					else {
-						console.error("PDF download link injection failed: Missing asses in response");
-					}
-				}
-				catch(e) { 
-					console.error("PDF download link injection failed: " + e);
-				}
-			}
-			else{
-				console.error("PDF download link injection failed: Response status code not 200 ("+req.status+")");
-			}
-		}
-	};
-	req.open("GET", "https://api.github.com/repos/{{site.github.repository_nwo}}/releases/latest", true);
-	req.send();
-  </script>
-  {% endif %}
+  <script src="media/html2pdf.bundle.min.js" defer></script>
 </head>
-<body class="markdown-body">
-{{ content }}
+<body>
+  <div class="cv-toolbar screen-only">
+    <button type="button" id="cv-download-btn" class="cv-download-btn">Download CV</button>
+  </div>
+  <div id="cv-content" class="markdown-body">
+    {{ content }}
+  </div>
+  <div id="footer" class="markdown-body"></div>
+  <script>
+    (function () {
+      var downloadBtn = document.getElementById("cv-download-btn");
+      var isDownloading = false;
+
+      function setButtonState(loading) {
+        downloadBtn.disabled = loading;
+        downloadBtn.textContent = loading ? "Generating..." : "Download CV";
+      }
+
+      function downloadCurrentPageAsPdf() {
+        if (typeof html2pdf === "undefined") {
+          window.alert("PDF generator could not be loaded. Please refresh the page and try again.");
+          return Promise.resolve();
+        }
+
+        setButtonState(true);
+        return html2pdf()
+          .set({
+            margin: [0.35, 0.35, 0.35, 0.35],
+            filename: "Cihan_Oguz_CV.pdf",
+            image: { type: "jpeg", quality: 0.98 },
+            html2canvas: { scale: 2, useCORS: true, logging: false },
+            jsPDF: { unit: "in", format: "letter", orientation: "portrait" },
+            pagebreak: { mode: ["css", "legacy"], avoid: [".cv-experience-start", "h2"] }
+          })
+          .from(document.getElementById("cv-content"))
+          .save()
+          .catch(function (error) {
+            console.error("PDF generation failed:", error);
+            window.alert("PDF could not be generated. Please try again.");
+          })
+          .finally(function () {
+            setButtonState(false);
+          });
+      }
+
+      downloadBtn.addEventListener("click", function () {
+        if (isDownloading) {
+          return;
+        }
+
+        isDownloading = true;
+        downloadCurrentPageAsPdf().finally(function () {
+          isDownloading = false;
+        });
+      });
+
+      {% if site.shouldInjectCvDownloadLink != "NO" %}
+      var req = new XMLHttpRequest();
+      req.onreadystatechange = function () {
+        if (req.readyState !== XMLHttpRequest.DONE) {
+          return;
+        }
+
+        if (req.status !== 200) {
+          console.error("PDF download link fetch failed: Response status code not 200 (" + req.status + ")");
+          return;
+        }
+
+        try {
+          var responseJSON = JSON.parse(req.responseText);
+          if (!responseJSON.assets || responseJSON.assets.length === 0) {
+            console.error("PDF download link fetch failed: Missing assets in response");
+            return;
+          }
+
+          var latestPdfUrl = responseJSON.assets[0].browser_download_url;
+          var directLinkTextNode = document.createTextNode("Latest PDF Version: ");
+          var directLinkElement = document.createElement("a");
+          directLinkElement.text = "Click here to download";
+          directLinkElement.href = latestPdfUrl;
+          var directLinkContainerElement = document.createElement("div");
+          directLinkContainerElement.appendChild(directLinkTextNode);
+          directLinkContainerElement.appendChild(directLinkElement);
+          document.getElementById("footer").appendChild(directLinkContainerElement);
+        } catch (e) {
+          console.error("PDF download link fetch failed: " + e);
+        }
+      };
+      req.open("GET", "https://api.github.com/repos/{{ site.github.repository_nwo }}/releases/latest", true);
+      req.send();
+      {% endif %}
+    })();
+  </script>
 </body>
 </html>

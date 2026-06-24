@@ -1,0 +1,6 @@
+.git
+_site
+.sass-cache
+*.swp
+.bundle
+vendor/bundle

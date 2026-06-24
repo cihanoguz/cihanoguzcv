@@ -1,0 +1,12 @@
+services:
+  cv:
+    build:
+      context: .
+      target: production
+      platforms:
+        - linux/amd64
+    platform: linux/amd64
+    container_name: cihanoguzcv
+    ports:
+      - "127.0.0.1:8082:80"
+    restart: unless-stopped

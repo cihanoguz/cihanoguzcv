@@ -1,4 +1,5 @@
 markdown: kramdown
+repository: cihanoguz/cihanoguzcv
 exclude: ['README.md', 'LICENSE', 'make_pdf.rb', 'Gemfile', 'Gemfile.lock']
 plugins:
   - "jekyll-github-metadata"
