@@ -30,9 +30,9 @@ replica of github's markdown style. And it is able to auto-generate a PDF versio
 
 ## Automatic PDF version generation
 
-Also if you set up Travis CI, i configured it up so after every commit, travis will print it to `cv.pdf` then create a release on github. You can always link to the latest release by adding the sufffix `/releases/latest` to repo url.  
-For example;  
-github.com/your-username-here/cv[/releases/latest](https://github.com/eralpkaraduman/cv/releases/latest)
+The public download link is [https://cihanoguzcv.oguzlab.com/cv.pdf](https://cihanoguzcv.oguzlab.com/cv.pdf). The page button uses that address too.
+
+Travis can still build a PDF after a commit. The link to share is the oguzlab address, not a GitHub release.
 
 To enable this;  
 - Go to [github.com/settings/tokens](https://github.com/settings/tokens)
@@ -40,7 +40,7 @@ To enable this;
 - Go to travis-ci.org settings page of you repo
 - Enter the token as Environment Variable with the key `GITHUB_OAUTH_TOKEN`
 - If everything was right, it will create a release under `/releases` page of your github repo
-- Latest release is conveniently always at `/releases/latest`
+- The address to give people is still [https://cihanoguzcv.oguzlab.com/cv.pdf](https://cihanoguzcv.oguzlab.com/cv.pdf)
 
 
 ## PDF download
