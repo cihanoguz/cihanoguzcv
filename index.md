@@ -37,7 +37,7 @@ Skills: .NET · Blazor · Telerik · AngularJS · Docker · Oracle  · PLSQL · 
 </div>
 
 
-`Feb 2026 - Presenet `<br/>
+`Feb 2026 - Sept 2026 `<br/>
 __Miuul__, Assistant Mentor,Remote <br/>
 • Supporting the 20th and 21th Term Data Scientist Bootcamp cohort as an Assistant Mentor. My role involves guiding students through Python, Data Analysis, and Machine Learning modules, reviewing their code and projects on GitHub, and providing actionable feedback to help them build robust data science skills. I actively assist in troubleshooting technical issues and fostering a collaborative learning environment.<br/>
 Skills: Python · Data Analysis · Machine Learning · Statistics 
