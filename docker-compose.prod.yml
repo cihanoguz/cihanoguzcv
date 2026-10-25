@@ -9,4 +9,10 @@ services:
     container_name: cihanoguzcv
     ports:
       - "127.0.0.1:8082:80"
+    mem_limit: 64m
     restart: unless-stopped
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"

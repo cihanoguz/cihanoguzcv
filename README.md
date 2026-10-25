@@ -1,11 +1,11 @@
-[cihanoguz.github.io/cihanoguzcv]: https://cihanoguz.github.io/cihanoguzcv/
-[latest release]: https://github.com/cihanoguz/cihanoguzcv/releases/latest
+[website]: https://cihanoguzcv.oguzlab.com/
+[pdf]: https://cihanoguzcv.oguzlab.com/cv.pdf
 
 # Source of Cihan Oguz's CV
 
-| Website                       | PDF Version      |
-|----------------------------   |------------------|
-| [cihanoguz.github.io/cihanoguzcv] | [latest release] |
+| Website  | PDF |
+|----------|-----|
+| [website] | [pdf] |
 
 [![Build Status](https://app.travis-ci.com/cihanoguz/cihanoguzcv.svg?branch=gh-pages)](https://app.travis-ci.com/github/cihanoguz/cihanoguzcv)
 
@@ -22,8 +22,8 @@ replica of github's markdown style. And it is able to auto-generate a PDF versio
 
 ## Features
 - Maintain your cv using Markdown
-- Free website for your CV _(hosted on github-pages)_
-- Automaticaly updated PDF version _(hosted on github releases)_
+- Free website for your CV
+- PDF download at `https://cihanoguzcv.oguzlab.com/cv.pdf`
 - Always have one link to your latest CV online for free
 - Update it easily on the web _(using github's web editor)_
 
@@ -43,16 +43,13 @@ To enable this;
 - Latest release is conveniently always at `/releases/latest`
 
 
-## Including downlad link to PDF version in the website
+## PDF download
 
-I added a feature which automatically adds the latest PDF version download link to the website.   
-This only works when automatic PDF version generation was set up (mentioned above).   
-This is done by javascript running on the page, it tries to fetch github's API to get the last release.  
-This link won't be generated in the PDF itself for several reasons;  
-- Lack of necessity, since you have the pdf there's need to download it again.
-- I didn't want to deal with all the troubles coming with executing javascript in pdf generation context
-- Travis CI blocks the request to github API i guess?
-- I disabled javascript for wkhtmltopdf, see 2 reasons above.
+The page button and the public download address are the same file:
+
+https://cihanoguzcv.oguzlab.com/cv.pdf
+
+`cv.pdf` is published with the site. It is not loaded from a GitHub release.
 
 
 ## Running jekyll locally
